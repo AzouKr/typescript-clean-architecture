@@ -16,4 +16,4 @@ RUN npm run build
 
 EXPOSE 3000
 
-CMD ["node", "build/src/app.js"]
+CMD ["node", "build/src/index.js"]
