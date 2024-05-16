@@ -2,6 +2,7 @@ import bcrypt from "bcrypt";
 import * as dotenv from "dotenv";
 import logger from "../../infrastructure/logger/winston";
 dotenv.config();
+
 export enum UserErrorType {
   UserAlreadyExists = "User already exists!",
   LoginError = "Password or Email is incorrect",
